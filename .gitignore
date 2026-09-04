@@ -1,0 +1,30 @@
+target/
+_local-only/
+.idea/
+.vscode/
+*.iml
+*.log
+*.pem
+*.key
+
+# Local secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+application-local.yaml
+**/application-local.properties
+**/application-local.yml
+**/application-local.yaml
+secrets.properties
+secrets.yml
+secrets.yaml
+**/secrets.properties
+**/secrets.yml
+**/secrets.yaml
+
+
+
+# For Later
+README.md
